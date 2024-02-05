@@ -29,14 +29,21 @@ git clone [https://github.com/Omaar2000/BASIC-CRUD-APP]
 
 ```
 
-2. **_Go to the directory of the repository_**
+2.   **_Watch the db.json file to retrieve and save tasks_**
+
+```bash
+
+json-server --watch db.json --port 9000
+
+```
+3. **_Go to the directory of the repository_**
 
 ```bash
 cd crud
 
 ```
 
-3. **_Run_**
+4. **_Run_**
 
 ```bash
 npm install
